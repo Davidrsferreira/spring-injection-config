@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="helloSetter" class="org.backstreet.collective.hellospring.HelloBean">
+        <property name="message" value="Hey baby, let's make a spring baby, damm you look fine!"/>
+    </bean>
+
+    <bean id="helloConstructor" class="org.backstreet.collective.hellospring.HelloBean">
+        <constructor-arg name="message" value="Hey baby, let's make a spring constructor"/>
+    </bean>
+
+</beans>
